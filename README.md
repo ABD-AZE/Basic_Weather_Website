@@ -1,4 +1,4 @@
-# Basic_Weather_Website
+# Weather_Website
 
 ## Basic Info
 This weather website gives the user the weather details of the city entered by the user in the input searchbox. The main aim of this project is to get a good grip on HTML and CSS and understand the working of API's using Javascript.<br>
