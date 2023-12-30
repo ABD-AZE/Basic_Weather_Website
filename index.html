@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather website</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+    <div id="main">
+        <header>
+        <input type="text" class="searchbar" id="searchbar" placeholder="Enter the name of city" onkeypress="checkenter(event)"><label for="searchbar"><img src="IMG/VisualEditor_-_Icon_-_Search.svg.png" alt="search"></label>
+        </header>
+        <div id="city">
+            <p>New York</p>
+        </div>
+        <div class="temperature">
+            <p id="temp">27&deg;C</p>
+            <img id="weather" src="IMG/clear.png" alt="" class="weather">
+        </div>
+        <div id="info">
+            <div class="winfo" id="1">Wind Speed:<span id="windspeed">14km/h</span></div>
+            <div class="winfo" id="2">Pressure:<span id="pressure">1018mb</span></div>
+            <div class="winfo" id="3">Humidity: <span id="humidity">74%</span></div>
+            <div class="winfo" id="4">Visibility: <span id="visibility">10km</span></div>
+        </div>
+    </div>
+    <script src="JS/index.js"></script>
+</body>
+</html>

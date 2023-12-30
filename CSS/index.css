@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;  
+}
+body{
+    background-image: url('../IMG/bgimg.jpg');  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div>header>label>img{
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+
+}
+header{
+    width: 500px;
+    margin:auto;
+    margin-left:17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+
+}
+#searchbar{
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    padding-left:10px;
+}
+#searchbar::placeholder{
+    font-size: 20px;
+}
+
+#main{
+    border: 2px solid black;
+    border-radius: 35px;
+    width: 700px;
+    margin:auto;
+    margin-top: 150px;
+    background-image: linear-gradient(135deg,rgb(218, 233, 243),rgb(110, 196, 190));
+    background-color: rgb(190, 222, 244);
+    box-shadow:10px 10px 20px rgb(0, 0, 0);
+}
+.temperature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16%;
+}
+#temp{
+    font-size: 100px;
+}
+#weather{
+    width: 200px;
+    height: 200px;
+}
+#city>p{
+    text-align: center;
+    font-size: 60px; 
+}
+#info{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top:25px;
+}
+.winfo{
+    height: 75px;
+    font-size: 30px;
+    margin-left: 35px;
+}
+#info>div>span{
+    margin-left: 15px;
+}
